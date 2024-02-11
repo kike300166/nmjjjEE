@@ -1,0 +1,64 @@
+@font-face{
+	font-family:'fuenteNueva';
+	src:url(/fuentes/Lost_Paper.ttf);
+}
+body{
+background:-webkit-radial-gradient(center,circle,rgb(0,0,0),rgb(4, 160, 255));
+}
+#login{
+	width: 400px;
+	background: 7px 13px 37px #545;
+	padding: 30px;
+	margin:20px auto; 
+	border-radius: 20px;
+	color: #ffffff;
+	box-shadow: 7px 13px 37px black;
+	text-shadow: 0 1px;
+
+}
+
+label{
+	font-weight: bold;
+	font-size: 30px;
+	color:white;
+	margin:30px auto;
+	font:2rem 'fuenteNueva';
+}
+h1{
+	text-align:center;
+	font-weight: unset;
+	font:3rem 'fuenteNueva';
+	color:white;
+	width: 30%;
+	margin-top:3rem;
+	margin-bottom:2rem;
+	margin-left:25rem;
+}
+form{
+	display:flex;
+	flex-direction: column;	
+}
+input{
+padding:8px;
+border-radius:10px 10px 10px 10px;
+text-align: center;
+width:40%;
+margin:.5rem auto;
+}
+#iniciar{
+	margin-top:10px;
+	padding: 7px;
+	border-radius:10px 10px 10px 10px;
+	width:20%;
+	margin:30px auto;
+	transition:all 1s;
+	background: rgba(42, 86, 153);
+	cursor:pointer;
+	color:white;
+	
+}
+
+#iniciar:hover{
+	transform:translateY(-10px);
+	box-shadow:15px 10px 30px rgba(0,0,0,.5);
+}
